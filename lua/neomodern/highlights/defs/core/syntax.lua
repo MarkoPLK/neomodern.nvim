@@ -9,7 +9,7 @@ M.get = function(palette, _, _)
         Constant = { guifg = palette.constant },
         Delimiter = { guifg = palette.fg },
         Float = { guifg = palette.number },
-        Function = { guifg = palette.func },
+        Function = { guifg = palette.func, gui = "bold" },
         Error = { guifg = palette.diag_red },
         Exception = { guifg = palette.diag_red },
         Identifier = { guifg = palette.property },
