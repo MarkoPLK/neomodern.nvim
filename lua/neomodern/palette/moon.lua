@@ -5,11 +5,11 @@ local fg_bias = "#eeeeff"
 
 ---@type neomodern.PrePalette.Base
 M.base = {
-	black = "#111111",
-	red = "#ab836c",
+	black = "#151515",
+	red = "#b39066",
 	green = "#777d77",
 	yellow = "#b5b3a5",
-	blue = "#858599",
+	blue = "#7a8aa6",
 	magenta = "#817882",
 	cyan = "#6d748c",
 }
