@@ -1,9 +1,9 @@
 ---@type neomodern.Extra
 local M = {
-    name = "kitty",
-    ext = "conf",
-    url = "https://sw.kovidgoyal.net/kitty/conf.html",
-    template = [=[
+	name = "kitty",
+	ext = "conf",
+	url = "https://sw.kovidgoyal.net/kitty/conf.html",
+	template = [=[
 # vim:ft=kitty
 
 # name: ${theme} colors for kitty
@@ -23,7 +23,7 @@ cursor_text_color #${bg}
 active_tab_background #${visual}
 active_tab_foreground #${alt}
 inactive_tab_background #${line}
-inactive_tab_foreground #${grey}
+inactive_tab_foreground #${bright_black}
 #tab_bar_background #${bg}
 
 # Windows
